@@ -113,18 +113,20 @@ ul.navbar-nav button{
                 letter-spacing: 0.655606px;
                 color: #2A2B2A;
             }
-            #see-more-btn{
-                margin-top:5px;   
-                margin-left:100px;   
+            #see-more-reviews{
+                text-align: center;
+                margin: 10px auto 90px auto;
+            }
+            #see-more-reviews-btn{
+                font-family: "Nunito";
                 background: #44CF6C;
-                border-radius: 10px;
-                font-family: Nunito;
+                border-radius: 7px;
                 font-style: normal;
-                font-weight: bold;
                 font-size: 16px;
                 line-height: 22px;
-                text-align: center;
+                padding: 10px 30px;
                 letter-spacing: 0.655606px;
+                outline: none;
                 color: #FFFFFF;
             }
             #star{
@@ -513,7 +515,7 @@ color: #2DCE89;
 
 /*For SubscribeNewLetter page*/
        #subscribe{
-           height:357px;
+           height:330px;
            margin-bottom: 0px;
             background: rgba(42, 43, 42, 0.05);
         }
@@ -537,10 +539,10 @@ color: #2DCE89;
         
         }
         #subscribe img  {
-            width:;
+
           
            
-            top: 0.25%;
+            top: 0.35%;
             bottom: 0.75%;
         }
        
@@ -569,7 +571,7 @@ color: #2DCE89;
             background: #FFFFFF;
             border: 1px solid #2A2B2A;
             box-sizing: border-box;
-            padding: 5px;
+            padding: 8px 30px;
 
             font-family: Lato;
             font-style: normal;
@@ -585,10 +587,10 @@ color: #2DCE89;
             border-radius: 10px;
         
             width: 25%;
-            padding: 5px;
+            padding: 9px 20px;
             font-family: Nunito;
             font-style: normal;
-            font-weight: bold;
+            
             font-size: 16px;
             line-height: 22px;
             text-align: center;
@@ -605,13 +607,22 @@ color: #2DCE89;
     #sub-column input[type="email"]{
         width: 90%;
         margin:0 auto;
-        text-align: center;
+       text-align: left;
+        font-family: "Lato";
+
         
     }
+[subscribe]{
+    text-align: center;
+}
     #sub-column input[type="submit"]{
         margin:0 auto;
         width: 90%;
         margin-top:10px;
+        font-family: Nunito;
+
+       
+        
     }
     #sub-column{
            width: 100%;
@@ -639,7 +650,7 @@ color: #2DCE89;
         }
         #subscribe img  {
             padding-left: 20%;
-            width: 70%;
+            width: 60%;
             margin-top: 20px;
         }   
         #right-col{
@@ -701,10 +712,10 @@ color: #000000;
   }
   #btn-real-time{
 background: #3F113D;
-border-radius: 10px;
+border-radius: 7px;
 font-family: Nunito;
 font-style: normal;
-font-weight: bold;
+padding: 10px 35px;
 font-size: 16px;
 line-height: 22px;
 text-align: center;
@@ -1070,25 +1081,27 @@ outline: none;
                              </div>
                         </div>
                   </div>
-                  <div class="col-sm-2">
-                  </div><br/>
+                 
 
-                  <div class="row">
-                    <div class="col-sm-6"></div>
-                      <div class="col-sm-6" id="see-more-con">
-                      <input type="button" class="btn btn-lg" id="see-more-btn" value="See More Reviews">
+                  
+                    
+                      
                     </div>
                     
                   </div>
         </div>
+        <div id="see-more-reviews">
+                <button id="see-more-reviews-btn">See more reviews</button>
+        </div>
+        
         <div id="subscribe">
                 <div id="sub-column">
                 <div id="left-col">
-                <form action="" method="">
+                <form subscribe action="" method="">
                     <p id="first-p">Subscribe to our Newsletter</p>
                     
                     <p id="second-p">Stay Updated with our latest news, discount and promotions</p>
-                    <input  type="email" placeholder="Email address" name="mail" required>
+                    <input  type="email" placeholder="E-mail Address" name="mail" required>
                     <input type="submit" value="Subscribe">
                 </form>   
                 </div>
